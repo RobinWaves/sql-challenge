@@ -2,7 +2,10 @@
 ## SQL Assignment - Employee Database
 ***
 
-This assignment is a research project on employees of the Pewlett Hackard corporation from the 1980s and 1990s.  It also seeks to find out ift the given dataset is fake. 
+This assignment is a research project on employees of the Pewlett Hackard corporation from the 1980s and 1990s.  It also seeks to find out if the given dataset is fake.
+
+An entity relationship diagram (ERD) was created as well as a table schema.  Tables were designed to hold data.  Then CSVs were imported into a SQL database for analysis.  
+
 
 Inside this repository you will find:
 * "EmpolyeeSQL" directory
@@ -10,43 +13,29 @@ Inside this repository you will find:
     * ERD - Employee Database
     * schema.sql
     * Analysis.sql
+        * Queries    
+            1.  List the employee number, last name, first name, sex, and salary of each employee.
+
+            2.  List first name, last name, and hire date for employees who were hired in 1986.
+
+            3.  List the department number, department name, the manager employee number, last name, first name of each manager of each department.
+
+            4.  List the department of each employee with the following information: employee number, last name, first name, and department name.
+
+            4.  List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+
+            5.  List all employees in the Sales department with their employee number, last name, first name, and department name.
+
+            6.  List all employees in the Sales and Development departments with their employee number, last name, first name, and department name.
+
+            7.  In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
 * "Bonus" directory
     * Bonus.ipynb - jupyter notebook file that XXXXXXXXX
     * Bar chart showing relationship:
     * Bar chart showing relationship:
 
 ***
-
-
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
-
-Data Modeling
-Inspect the CSVs and sketch out an ERD of the tables. 
-
-Data Engineering
-Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
-
-Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
-
-Data Analysis
-Once you have a complete database, do the following:
-
-List the following details of each employee: employee number, last name, first name, sex, and salary.
-
-List first name, last name, and hire date for employees who were hired in 1986.
-
-List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-
-List the department of each employee with the following information: employee number, last name, first name, and department name.
-
-List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-
-List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
-List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
 Bonus (Optional)
 You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
@@ -72,4 +61,3 @@ Run WeatherPy.ipynb in the WeatherPy directory with Jupyter Notebook to visualiz
 
 Outputs 12 plots and one csv file
 Run VacationPy.ipynb in the WeatherPy directory with Jupyter Notebook to assist in planning future vacations using jupyter-gmaps and the Google Places API. Uses the weather data retrieved in WeatherPy.ipynb, creates a humidity heat map, and then narrows down the cities to meet ideal conditions for a vacation spot. The conditions are: max temperature lower than 80 degrees but higher than 70, wind speed less than 10 mph and zero cloudiness. Then it finds hotels within 5000 meters of the filtered cities latitude and longitude coordinates. Finally, the humidity heat map is created with pins/markers showing hotel name, city and country on that map.
-

@@ -33,6 +33,7 @@ Inside this repository you will find:
 
 * "Bonus" directory - For the bonus, the SQL database was imported into Pandas using SQLAlchemy.
     * Bonus.ipynb - jupyter notebook file that seeks to validate the data
+        * Look for my employee ID per my boss's suggestion
     * SalaryHist - histogram showing the most common salary ranges for employees
     * TitleSalaryBar - bar chart showing average salary by title
 

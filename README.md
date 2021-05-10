@@ -32,8 +32,8 @@ Inside this repository you will find:
 
 * "Bonus" directory
     * Bonus.ipynb - jupyter notebook file that XXXXXXXXX
-    * Bar chart showing relationship:
-    * Bar chart showing relationship:
+    * SalaryHist - histogram showing the frequency of each salary
+    * TitleSalaryBar - bar chart showing titles and their salaries
 
 ***
 Bonus (Optional)
